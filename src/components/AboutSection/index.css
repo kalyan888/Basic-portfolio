@@ -1,0 +1,132 @@
+.about-section-heading {
+  color: #f0f1f5;
+  font-family: 'Roboto';
+  font-size: 24px;
+  font-weight: 500;
+}
+
+@media screen and (min-width: 768px) {
+  .about-section-heading {
+    font-size: 25px;
+  }
+}
+
+.about-section-description {
+  color: #e1e3e8;
+  font-family: 'Roboto';
+  font-size: 14px;
+}
+
+.education-and-skills-container {
+  display: flex;
+  flex-direction: column;
+  margin-top: 15px;
+}
+
+@media screen and (min-width: 768px) {
+  .education-and-skills-container {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}
+
+.education-details-container {
+  width: 100%;
+}
+
+@media screen and (min-width: 768px) {
+  .education-details-container {
+    width: 50%;
+  }
+}
+
+.education-and-skills-heading {
+  color: #f0f1f5;
+  font-family: 'Roboto';
+  font-size: 20px;
+  font-weight: 500;
+}
+
+@media screen and (min-width: 768px) {
+  .education-and-skills-heading {
+    font-size: 23px;
+  }
+}
+
+.education-details-list {
+  list-style-image: url('https://res.cloudinary.com/lalitha/image/upload/v1618052162/list-icon-16_mboqnl.png');
+  padding-left: 16px;
+}
+
+.qualification {
+  color: #e1e6f0;
+  font-family: 'Roboto';
+  font-size: 16px;
+  font-weight: 500;
+}
+
+@media screen and (min-width: 768px) {
+  .qualification {
+    font-size: 17px;
+  }
+}
+
+.education-place {
+  color: #ccdae8;
+  font-family: 'Roboto';
+  font-size: 14px;
+  font-weight: 400;
+}
+
+@media screen and (min-width: 768px) {
+  .education-place {
+    font-size: 15px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .skills-container {
+    width: 50%;
+  }
+}
+
+.skills-list {
+  display: flex;
+  flex-wrap: wrap;
+  font-family: 'Roboto';
+  font-size: 24px;
+  font-weight: 500;
+  padding: 0px;
+}
+
+@media screen and (min-width: 768px) {
+  .skills-list {
+    flex-direction: column;
+    align-items: start;
+    max-height: 250px;
+  }
+}
+
+.skill-item {
+  list-style: none;
+  margin-bottom: 12px;
+  margin-right: 8px;
+}
+
+@media screen and (min-width: 768px) {
+  .skill-item {
+    margin-bottom: 24px;
+  }
+}
+
+.skill {
+  color: #002d66;
+  background-color: #ffffff60;
+  font-family: 'Roboto';
+  font-size: 13px;
+  font-weight: 600;
+  border: none;
+  border-radius: 25px;
+  padding: 8px 16px;
+  margin: 0px;
+}

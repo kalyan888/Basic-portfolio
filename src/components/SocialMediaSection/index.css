@@ -1,0 +1,52 @@
+.social-media-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  background-color: #ffffff35;
+  border: 1px solid #ffffff;
+  border-radius: 12px;
+  padding: 24px 24px 0 24px;
+  margin: 24px 0 20px 0;
+}
+
+@media screen and (max-width: 767px) {
+  .social-media-section {
+    background-color: #ffffff15;
+  }
+}
+@media screen and (min-width: 768px) {
+  .social-media-section {
+    height: 10vh;
+    flex-wrap: nowrap;
+    margin-bottom: 0px;
+    margin-left: 32px;
+  }
+}
+
+.app-logo {
+  margin: 0 8px 16px 8px;
+  border-radius: 30%;
+  height: 30px;
+  width: 30px;
+}
+
+@media screen and (min-width: 576px) {
+  .app-logo {
+    margin: 0 12px 24px 12px;
+    border-radius: 30%;
+    height: 25px;
+    width: 25px;
+  }
+}
+
+.app-logo:hover {
+  height: 40px;
+  width: 40px;
+  animation: rotateonhover 1s;
+}
+@keyframes rotateonhover {
+  100% {
+    transform: rotate(360deg);
+  }
+}

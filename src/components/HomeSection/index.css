@@ -1,0 +1,77 @@
+.home-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.username {
+  color: #f0f1f5;
+  font-family: 'Roboto';
+  font-size: 24px;
+  font-weight: 500;
+  letter-spacing: 1px;
+}
+
+.designation {
+  color: #e1e3e8;
+  font-family: 'Roboto';
+  font-size: 14px;
+  font-weight: 500;
+}
+@media screen and (min-width: 768px) {
+  .home-section {
+    padding: 200px;
+  }
+  .username {
+    font-size: 28px;
+  }
+  .designation {
+    font-size: 22px;
+  }
+}
+
+.experience-description {
+  text-align: center;
+  color: #e1e3e8;
+  font-family: 'Roboto';
+  font-size: 12px;
+  font-weight: 500;
+  max-width: 600px;
+}
+
+@media screen and (min-width: 768px) {
+  .experience-description {
+    font-size: 16px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .view-resume-btn {
+    padding: 11px 25px;
+    margin: 30px 0 0 0;
+  }
+}
+
+.view-resume-btn {
+  color: white;
+  background-color: #0343a8;
+  font-family: 'Roboto';
+  font-size: 13px;
+  font-weight: 500;
+  border: none;
+  border-radius: 25px;
+  padding: 13px 26px;
+  outline: none;
+  margin: 20px 0 0 0;
+}
+
+.view-resume-btn:hover {
+  color: #013273;
+  background-color: #fff;
+  font-weight: 800;
+  cursor: pointer;
+  box-shadow: 0 5px 25px rgba(255, 255, 255, 1);
+  transition: 0.4s ease-in-out;
+}
